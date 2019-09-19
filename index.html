@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Leventhal Map & Education Center : Urban Atlas Extent Viewer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <style>
+        html, body { margin: 0; border: 0; padding: 0; }
+		#map { position: fixed; top: 0; left: 0; right: 0; bottom: 0; }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+    <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+    <script>
+    if (window.location.hash) {
+        const barcode = window.location.hash.slice(1);
+        buildMap(barcode);
+
+
+    } else {
+        document.querySelector("#map").innerHTML = 'You seem to have loaded an incorrect link.'
+    }
+
+    function buildMap(barcode) {
+
+        var map = new L.map('map', {
+            center: [42.360369, -71.059426],
+            zoom: 15
+        });
+
+        var backgroundLayer = new L.StamenTileLayer('toner-lite').addTo(map);
+        var tileLayer = new L.TileLayer(`https://s3.us-west-1.wasabisys.com/urban-atlases/${barcode}/tiles/{z}/{x}/{y}.png`, {
+            tms: true,
+            attribution: "Leventhal Map & Education Center at the Boston Public Library"
+        }).addTo(map);
+
+        loadJSON(barcode, function(response) {
+            // Parse JSON string into object
+            var geojson = JSON.parse(response);
+            var geojsonLayer = new L.geoJSON(geojson, {
+                style: function() { return { color: "rgb(0, 255, 191)", opacity: 0.8, weight: 2, fillOpacity: 0 }; },
+                onEachFeature: bindPopup
+            }).addTo(map);
+            map.fitBounds(geojsonLayer.getBounds());
+        });
+
+
+
+    }
+
+
+    function loadJSON(barcode, callback) {
+
+        var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+        xobj.open('GET', `http://s3.us-west-1.wasabisys.com/urban-atlases/${barcode}/src/footprint/Boundary.geojson`, true);
+        xobj.onreadystatechange = function() {
+            if (xobj.readyState == 4 && xobj.status == "200") {
+                callback(xobj.responseText);
+            }
+        };
+        xobj.send(null);
+    }
+
+    function bindPopup(feature, layer) {
+
+        layer.bindPopup(`<h1>${feature.properties.plate}</h1><p>${feature.properties.publisher}, <em>${feature.properties.title}</em> (${feature.properties.year}). Leventhal Map & Education Center at the Boston Public Library.</p>
+    	<p>Call number: ${feature.properties.identifier}</p>
+    	<p><a href="https://collections.leventhalmap.org/search/${feature.properties.commonweal}" target=_blank>View in Digital Collections</a></p>`);
+
+    }
+    </script>
+</body>
+
+</html>
