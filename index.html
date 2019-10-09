@@ -41,7 +41,8 @@
 
         var map = new L.map('map', {
             center: [42.360369, -71.059426],
-            zoom: 15
+            zoom: 15,
+            maxZoom: 21
         });
 
         var backgroundLayer = new L.TileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
@@ -49,6 +50,7 @@
         }).addTo(map);
         var tileLayer = new L.TileLayer(`https://s3.us-west-1.wasabisys.com/urban-atlases/${barcode}/tiles/{z}/{x}/{y}.png`, {
             tms: true,
+            maxZoom: 20,
             attribution: "Leventhal Map & Education Center at the Boston Public Library"
         }).addTo(map);
 
