@@ -48,7 +48,7 @@
         var backgroundLayer = new L.TileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
             attribution: " Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL"
         }).addTo(map);
-        var tileLayer = new L.TileLayer(`https://s3.us-west-1.wasabisys.com/urban-atlases/${barcode}/tiles/{z}/{x}/{y}.png`, {
+        var tileLayer = new L.TileLayer(`https://s3.us-east-2.wasabisys.com/urban-atlases/${barcode}/tiles/{z}/{x}/{y}.png`, {
             tms: true,
             maxZoom: 20,
             attribution: "Leventhal Map & Education Center at the Boston Public Library"
@@ -73,7 +73,7 @@
 
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-        xobj.open('GET', `https://s3.us-west-1.wasabisys.com/urban-atlases/${barcode}/src/footprint/Boundary.geojson`, true);
+        xobj.open('GET', `https://s3.us-east-2.wasabisys.com/urban-atlases/${barcode}/src/footprint/Boundary.geojson`, true);
         xobj.onreadystatechange = function() {
             if (xobj.readyState == 4 && xobj.status == "200") {
                 callback(xobj.responseText);
