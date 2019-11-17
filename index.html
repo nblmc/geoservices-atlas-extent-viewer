@@ -85,7 +85,7 @@
     function bindPopup(feature, layer) {
 
         layer.bindPopup(`<h1>${feature.properties.plate}</h1><p>${feature.properties.publisher}, <em>${feature.properties.title}</em> (${feature.properties.year}). Leventhal Map & Education Center at the Boston Public Library.</p>
-    	<p>Call number: ${feature.properties.identifier}</p>
+    	<p>Collections identifier: ${feature.properties.identifier}</p>
     	<p><a href="https://collections.leventhalmap.org/search/${feature.properties.commonweal}" target=_blank>View in Digital Collections</a></p>`);
 
     }
