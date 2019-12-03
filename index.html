@@ -86,7 +86,7 @@
                 onEachFeature: bindPopup
             }).addTo(map);
 
-            if(hashContent.length === 1) { map.fitBounds(geojsonLayer.getBounds()); }
+            if(hashContents.length === 1) { map.fitBounds(geojsonLayer.getBounds()); }
         });
 
         if(hashContents.length > 1) {
