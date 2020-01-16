@@ -78,7 +78,7 @@
         <div id="controls">
             <div id="controls-inner">
                 <select name="atlases-selector" id="atlases-selector">
-                    <option value="-1">Choose an atlas …</option>
+                    <option disabled selected value="-1">Choose an atlas …</option>
                 </select>
             </div>
         </div>
@@ -136,7 +136,9 @@ function buildMap(geography) {
             return d;
         }
     }).then(function(data) {
-        // Now the data has been filtered and use it to build menus 
+
+        console.log(data);
+        // Now the data has been filtered and we can use it to build menus 
 
         // Sort the atlases by year ascending
         data.sort(function(a, b) {
@@ -149,12 +151,14 @@ function buildMap(geography) {
         menu.on('change', menuChange);
 
         // Add a menu option for each atlase
-        menu.selectAll('option')
+        menu.selectAll('.atlas-option')
             .data(data)
             .enter().append('option')
             .attr("value", function(d, i) {
+                console.log(i);
                 return i;
             })
+            .attr("class","atlas-option")
             .text(function(d) {
                 return `${titleCase(d.desc_short)} (${d.publisher})`;
             });
