@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Leventhal Map & Education Center : Footprint Viewer for Libguides</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>    <style>
+    html,
+    body {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    #wraps-all {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #controls {
+        background-color: #333
+    }
+
+    #controls-inner {
+        padding: 15px;
+    }
+
+    #atlases-selector {
+        font-size: 2.0em;
+    }
+
+    #map {
+        flex-grow: 3;
+        background-color: #000;
+    }
+
+    #atlascope-button {
+        display: none;
+        z-index: 9999;
+        background-color: rgb(39, 85, 155);
+        font-size: 1.6em;
+        font-weight: 500;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        position: relative;
+        top: 100px;
+        display: none;
+        margin-left: 2em;
+        margin-right: 2em;
+        border: 0;
+        cursor: pointer;
+    }
+
+    #atlascope-button:hover {
+        background-color: rgb(77, 125, 196);
+    }
+
+    .underline {
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="wraps-all">
+        <div id="controls">
+            <div id="controls-inner">
+                <select name="atlases-selector" id="atlases-selector">
+                    <option value="-1">Choose an atlas …</option>
+                </select>
+            </div>
+        </div>
+        <div id="map">
+            <button id="atlascope-button" data-barcode=""><span id="atlascope-atlas-name" class="underline">This atlas</span> is available in <span class="underline">Atlascope</span>, our new atlases discovery portal ↗️</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+    <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+
+    <script>
+// First check if a hash exists, which should be the geography requested.
+// If it exists, pass it to buildMap()
+// If it doesn't, write an error to the body and end
+if (window.location.hash) {
+    const hashContents = window.location.hash.slice(1).split('$');
+    buildMap(hashContents[0]);
+} else {
+    document.body.innerHTML = 'Sorry, this map could not be loaded.'
+}
+
+
+
+// Main function for creating the map
+function buildMap(geography) {
+
+    // Before we do anything, we'll initialize the Leaflet map with a default view of Boston
+
+    var map = new L.map('map', {
+        center: [42.360369, -71.059426],
+        zoom: 13,
+        maxZoom: 21,
+        zoomSnap: 0.1
+    });
+
+    var backgroundLayer = new L.TileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+        attribution: " Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL"
+    }).addTo(map);
+
+    var footprintsGroup = new L.layerGroup(null).addTo(map);
+    var atlascopeButton = d3.select("#atlascope-button");
+
+
+    // Take the geography string from the hash and replace hyphens with spaces
+    var geography = geography.replace('-', ' ');
+
+    // Load the CSV table, and pass a filter function that selects out only records where geo_extent_discrete includes the requested geography
+    d3.csv('atlases-data.csv', function(d) {
+        var extents = d.geo_extent_discrete.split(',');
+        if (extents.includes(geography)) {
+            return d;
+        }
+    }).then(function(data) {
+        // Now the data has been filtered and use it to build menus 
+
+        // Sort the atlases by year ascending
+        data.sort(function(a, b) {
+            return a.year - b.year;
+        });
+
+
+        var menu = d3.select('#atlases-selector');
+
+        menu.on('change', menuChange);
+
+        // Add a menu option for each atlase
+        menu.selectAll('option')
+            .data(data)
+            .enter().append('option')
+            .attr("value", function(d, i) {
+                return i;
+            })
+            .text(function(d) {
+                return `${titleCase(d.desc_short)} (${d.publisher})`;
+            });
+
+        // Function which is called when the menu is changed
+        function menuChange() {
+            if (this.value === "-1") {
+                // If we've chosen the "Select an atlas ..." option
+                atlascopeButton.style('display', 'none');
+                footprintsGroup.clearLayers();
+            } else {
+                var atlas = data[this.value];
+                if (atlas.CLIR_status === 'complete') {
+
+                    // If the atlas is available in Atlascope, just show a button and point the user there
+                    footprintsGroup.clearLayers();
+                    d3.select("#atlascope-atlas-name").text(titleCase(atlas.desc_short));
+                    atlascopeButton.style('display', 'block');
+                } else {
+                    footprintsGroup.clearLayers();
+                    atlascopeButton.style('display', 'none');
+
+                    // execute loadJSON() if we're dealing with an atlases that only has a footprint but isn't in Atlascope
+                    loadJSON(atlas.old_json_src);
+
+                }
+            }
+        }
+
+        // Function for when the Atlascope button is clicked
+
+        atlascopeButton.on('click',function(){
+            var atlas = data[menu.node().value];
+            window.open(`https://atlascope.leventhalmap.org/#view:share$base:000$overlay:${atlas.barcode}$zoom:13.46$center:-7910858.726800796,5213545.4751608735$mode:glass$pos:306`);
+        })
+
+    });
+
+
+    function loadJSON(src) {
+
+        var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+        xobj.open('GET', src, true);
+        xobj.onreadystatechange = function() {
+            if (xobj.readyState == 4 && xobj.status == "200") {
+                addFootprintToMap(xobj.responseText);
+            }
+        };
+        xobj.send(null);
+    }
+
+
+    function addFootprintToMap(data) {
+        var geojson = JSON.parse(data);
+        var geojsonLayer = new L.geoJSON(geojson, {
+            style: function() {
+                return {
+                    color: "rgb(0, 255, 191)",
+                    opacity: 0.8,
+                    weight: 3,
+                    fillOpacity: 0.2,
+                    fillColor: "rgb(102, 204, 255)"
+                };
+            },
+            onEachFeature: bindPopup
+        }).addTo(footprintsGroup);
+
+        map.fitBounds(geojsonLayer.getBounds());
+    }
+
+    function bindPopup(feature, layer) {
+
+        var popupText = `<h1>Plate ${feature.properties.plate}</h1><p>From ${feature.properties.atlas}</p>`;
+        if(feature.properties.url){ popupText = popupText + `<p><a href="${feature.properties.url}" target=_blank>View this plate in Digital Collections</a></p>`; }
+
+        layer.bindPopup(popupText);
+
+    }
+}
+
+// Helper to title case strings
+function titleCase(str) {
+    return str.toLowerCase().split(' ').map(function(word) {
+        return (word.charAt(0).toUpperCase() + word.slice(1));
+    }).join(' ');
+}
+
+    </script>
+</body>
+
+</html>
