@@ -13,6 +13,7 @@
         margin: 0;
         border: 0;
         padding: 0;
+        font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     }
 
     #wraps-all {
@@ -42,22 +43,25 @@
         background-color: #000;
     }
 
+    #atlascope-bar {
+        background-color: #333;
+        text-align: center;
+        width: 100%;
+    }
+
     #atlascope-button {
         display: none;
         z-index: 9999;
         background-color: rgb(39, 85, 155);
-        font-size: 1.6em;
+        font-size: 1.2em;
         font-weight: 500;
         color: #fff;
         padding: 10px;
         border-radius: 4px;
         position: relative;
-        top: 100px;
-        display: none;
-        margin-left: 2em;
-        margin-right: 2em;
         border: 0;
         cursor: pointer;
+        margin-top: 10px;
     }
 
     #atlascope-button:hover {
@@ -67,6 +71,28 @@
     .underline {
         font-weight: 700;
         text-decoration: underline;
+    }
+
+    .leaflet-popup-content .popup-heading {
+        font-weight: 400;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #aaa;
+    }
+
+    .leaflet-popup-content p {
+        font-size: 1.3em;
+    }
+
+    #not-digitized-message {
+        display: none;
+        text-align: center;
+        background-color:rgb(194, 124, 33);
+        color: #fff;
+        font-weight: 600;
+        margin-top: 12px;
+        padding: 12px;
     }
 
     </style>
@@ -80,10 +106,13 @@
                 <select name="atlases-selector" id="atlases-selector">
                     <option disabled selected value="-1">Choose an atlas …</option>
                 </select>
+                <div id="atlascope-bar">
+                    <button id="atlascope-button" data-barcode=""><span id="atlascope-atlas-name" class="underline">This atlas</span> is also available in <span class="underline">Atlascope</span>, our new atlases discovery portal ↗️</button>
+                </div>
+                <div id="not-digitized-message"><span id="not-digitized-atlas-name">This atlas</span> does not yet have digitized footprints. Please <a href="https://www.leventhalmap.org/research/" target="_blank">make a reference request</a> if you would like to see the library copy in person.</div>
             </div>
         </div>
         <div id="map">
-            <button id="atlascope-button" data-barcode=""><span id="atlascope-atlas-name" class="underline">This atlas</span> is available in <span class="underline">Atlascope</span>, our new atlases discovery portal ↗️</button>
         </div>
     </div>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
@@ -124,6 +153,7 @@ function buildMap(geography) {
 
     var footprintsGroup = new L.layerGroup(null).addTo(map);
     var atlascopeButton = d3.select("#atlascope-button");
+    var notDigitizedMessage = d3.select("#not-digitized-message");
 
 
     // Take the geography string from the hash and replace hyphens with spaces
@@ -137,7 +167,7 @@ function buildMap(geography) {
         }
     }).then(function(data) {
 
-        console.log(data);
+
         // Now the data has been filtered and we can use it to build menus 
 
         // Sort the atlases by year ascending
@@ -155,7 +185,6 @@ function buildMap(geography) {
             .data(data)
             .enter().append('option')
             .attr("value", function(d, i) {
-                console.log(i);
                 return i;
             })
             .attr("class","atlas-option")
@@ -175,14 +204,29 @@ function buildMap(geography) {
 
                     // If the atlas is available in Atlascope, just show a button and point the user there
                     footprintsGroup.clearLayers();
+
                     d3.select("#atlascope-atlas-name").text(titleCase(atlas.desc_short));
-                    atlascopeButton.style('display', 'block');
+                    atlascopeButton.style('display', 'inline-block');
+                    notDigitizedMessage.style('display', 'none');
+
+                    loadJSON(`https://s3.us-east-2.wasabisys.com/urbanatlases/${atlas.barcode}/src/footprint/Boundary.geojson`)
+
                 } else {
+
+                    if(atlas.old_json_src != "n/a") {
                     footprintsGroup.clearLayers();
                     atlascopeButton.style('display', 'none');
+                    notDigitizedMessage.style('display', 'none');
 
                     // execute loadJSON() if we're dealing with an atlases that only has a footprint but isn't in Atlascope
                     loadJSON(atlas.old_json_src);
+
+                    } else {
+                        d3.select("#not-digitized-atlas-name").text(titleCase(atlas.desc_short));
+                        notDigitizedMessage.style('display', 'block');
+                        atlascopeButton.style('display', 'none');
+                        footprintsGroup.clearLayers();
+                    }
 
                 }
             }
@@ -232,10 +276,29 @@ function buildMap(geography) {
 
     function bindPopup(feature, layer) {
 
-        var popupText = `<h1>Plate ${feature.properties.plate}</h1><p>From ${feature.properties.atlas}</p>`;
-        if(feature.properties.url){ popupText = popupText + `<p><a href="${feature.properties.url}" target=_blank>View this plate in Digital Collections</a></p>`; }
+        var plate = `<h3 class="popup-heading">Plate</h3><p>${feature.properties.plate}</p>`;
 
-        layer.bindPopup(popupText);
+        if(feature.properties.atlas) {
+            var bibliography = `<h3 class="popup-heading">Atlas</h3><p>${feature.properties.atlas}</p>`;
+        } else {
+            var bibliography = `<h3 class="popup-heading">Atlas</h3><p><i>${feature.properties.title}</i> (${feature.properties.publisher}, ${feature.properties.year})</p>`;
+        }
+
+        if(feature.properties.commonweal) {
+            var centroid = layer.getBounds().getCenter();
+            var center = webmercator(centroid.lng,centroid.lat);
+            var view = `<h3 class="popup-heading">View online</h3><p><a href="https://collections.leventhalmap.org/search/${feature.properties.commonweal}" target="_blank">View this plate in Digital Collections</a><br><a href="https://atlascope.leventhalmap.org/#view:share$base:000$overlay:$center:${center.x},${center.y}$mode:glass$pos:566$zoom:18" target="_blank">View this plate in Atlascope</a></p>`;
+
+        } else if (feature.properties.url) {
+            var view = `<h3 class="popup-heading">View online</h3><p><a href="${feature.properties.url}" target="_blank">View this plate in Digital Collections</a></p>`;
+        } else {
+            var view = `<h3 class="popup-heading">View online</h3><p>Not yet digitized; <a href="https://www.leventhalmap.org/research/" target="_blank">make a reference request</a> to see in the library</p>`;
+        }
+
+        // var popupText = `<h1>Plate ${feature.properties.plate}</h1><p>From ${feature.properties.atlas}</p>`;
+        // if(feature.properties.url){ popupText = popupText + `<p><a href="${feature.properties.url}" target=_blank>View this plate in Digital Collections</a></p>`; }
+
+        layer.bindPopup(`${plate} ${bibliography} ${view}`);
 
     }
 }
@@ -246,6 +309,16 @@ function titleCase(str) {
         return (word.charAt(0).toUpperCase() + word.slice(1));
     }).join(' ');
 }
+
+// Helper for converting to Web Mercator
+
+var webmercator = function(lon,lat) {
+  var x = lon * 20037508.34 / 180;
+  var y = Math.log(Math.tan((90 + lat) * Math.PI / 360)) / (Math.PI / 180);
+  y = y * 20037508.34 / 180;
+  return {x: x, y: y}
+}
+
 
     </script>
 </body>
