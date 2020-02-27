@@ -25,7 +25,7 @@
 39999059010650,boston proper 1874,complete,Hopkins,1874,G1233_S8_H6_1874v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol1.geojson,Boston proper
 39999085952040,dorchester 1933,pending,Bromley ,1933,G1234_B6_2D6_B7_1933x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1933-dorchester.geojson,Dorchester
 39999085945721,boston proper 1885,pending,Sanborn,1885,G1234_B6G475_S36_1885v2,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1885-roxburyvol2.geojson,"Boston proper,Roxbury"
-39999085945705,charlestown 1885,in progress,Sanborn,1885,G1234_B6G475_S36_1885_v4,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1884-charlestownandcambridge.geojson,"Charlestown,Cambridge,Somerville"
+39999085945705,charlestown 1885,complete,Sanborn,1885,G1234_B6G475_S36_1885_v4,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1884-charlestownandcambridge.geojson,"Charlestown,Cambridge,Somerville"
 39999059011666,charlestown 1922,complete,Bromley,1922,G1234_B6_2C38_B7_1922,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1922-charlestownandeastboston.geojson,"Charlestown,East Boston"
 39999059011971,brookline 1927,complete,Bromley,1927,G1234_B9G46_B7_1927x,new index,n/a,Brookline
 39999059011005,dorchester 1889,complete,Bromley,1889,G1234_B6_B7_1888v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1889-dorchester.geojson,Dorchester
@@ -115,3 +115,132 @@
 39999085951109,west roxbury 1986,not included,Sanborn,1986,G1234.B6G475 S36 1986 v.7,old index,n/a,West Roxbury
 39999085951133,west roxbury 1986,not included,Sanborn,1986,G1234.B6G475 S36 1986 v.10,old index,n/a,West Roxbury
 39999085951224,west roxbury 1988,not included,Sanborn,1988,G1234.B6G475 S36 1988 v.10,old index,n/a,West Roxbury
+39999059010239,berkshire co 1876,not included,Beers,1876,G1233.B4 B44 1876,old index,n/a,Berkshire County
+39999059010262,essex co 1872,not included,Beers,1872,G1233.E7 D5 1872,old index,n/a,Essex County
+39999059010486,middlesex co 1900,not included,,1881,G1233.M5 A8 1900 v.3,old index,n/a,Middlesex County
+39999059010395,middlesex co 1875,not included,"Beers, F. W. (Frederick W.)",1912,G1233.M5 B44 1875,old index,n/a,Middlesex County
+39999059010445,watertown 1898,not included,Geo. W. Stadly & Co.,1911,G1233.M5 S7 1898,old index,n/a,"Watertown,Belmont,Arlington,Lexington"
+39999059010585,norfolk co 1876,not included,"Sherman, W. A.",1871,G1233.N6 S5 1876,old index,n/a,Norfolk County
+39999059010759,worcester co 1898,not included,L.J. Richards & Co.,1884,G1233.W6 R53 1898x ,old index,n/a,Worcester County
+39999065701219,gloucester 1903,not included,Sanborn Map Company.,1870,G1234.G4G475 S36 1903,old index,n/a,Gloucester
+39999065701201,gloucester 1917,not included,Sanborn Map Company.,1888,G1234.G4G475 S36 1917,old index,n/a,Gloucester
+39999065696948,gilbertville 1911,not included,Sanborn Map Company.,1898,G1234.G36 S26 1911,old index,n/a,Gilbertville
+39999065704239,hull 1895,not included,Geo. H. Walker & Co.,1911,G1234.H84 G4 1895,old index,n/a,Hull
+39999059015683,lowell 1936,not included,Franklin Survey Company.,1889,G1234.L7 F7 1936 ,old index,n/a,Lowell
+39999059015774,malden 1885,not included,Geo. H. Walker & Co.,1943,G1234.M2 G4 1885,old index,n/a,Malden
+39999059015717,melrose 1934,not included,,1969,G1234.M59 C5 1934 ,old index,n/a,Melrose
+39999059015741,new bedford 1881,not included,Walker,1881,G1234.N4 G4 1881 ,old index,n/a,New Bedford
+39999059015808,newton 1929,not included,"Barnes, Rowland H.",1930,G1234.N5 B37 1929,old index,n/a,Newton
+39999059015782,newton 1946,not included,Newton (Mass.). Engineering Dept.,1944,G1234.N5 N49 1946 ,old index,n/a,Newton
+39999085934121,northampton 1884,not included,"Geo. H. Walker & Co., cartographer, publisher.",1931,G1234.N8 G46 1884,old index,n/a,Northampton
+39999059007797,northampton 1895,not included,D.L. Miller & Co.,1954,G1234.N8 M5 1895 ,old index,n/a,"Northampton,Easthampton"
+39999059015949,taunton 1881,not included,Geo. H. Walker & Co.,1881,G1234.T2 G46 1881 ,old index,n/a,Taunton
+39999065701227,ware 1912,not included,Sanborn Map Company.,1935,G1234.W25G475 S36 1912,old index,n/a,Ware
+39999065696930,warren 1911,not included,Sanborn Map Company.,1874,G1234.W28 S26 1911,old index,n/a,Warren
+39999059010247,bristol co 1871,not included,Beers,1871,G1233.B7 B44 1871 ,old index,n/a,Bristol County
+39999059003598,essex co 1884,not included,Geo. H. Walker & Co.,1884,G1233.E7 W35 1884 ,old index,n/a,Essex County
+39999059010361,hampden co 1870,not included,Beers,1870,G1233.H3 B44 1870 ,old index,n/a,Hampden County
+39999059010601,norfolk co 1888,not included,"Robinson, E. (Elisha)",1900,G1233.N6 R6 1888,old index,n/a,Norfolk County
+39999059016103,medford 1898,not included,Geo. W. Stadly & Co.,1936,G1234.M5 G46 1898x,old index,n/a,Medford
+39999065704791,waltham 1911,not included,Waltham (Mass.). City Engineer.,1936,G1234.W2G46 W35 1911,old index,n/a,Waltham
+39999059010437,middlesex co 1889,not included,Geo. H. Walker & Co.,1910,G1233.M5 W35 1889 ,old index,n/a,Middlesex County
+39999059012003,brookline 1943,not included,Brookline (Mass.). Board of Assessors.,1904,G1234.B9G46 B7 1943x,old index,n/a,Brookline
+39999059011989,brookline 1969,not included,Brookline (Mass.). Dept. of Public Works. Engineering Division.,1876,G1234.B9G46 B7 1969x,old index,n/a,Brookline
+39999059011997,brookline 1972,not included,Brookline (Mass.). Dept. of Public Works. Engineering Division.,1899,G1234.B9G46 B7 1972x,old index,n/a,Brookline
+39999085949186,brookline 1930,not included,"Brookline (Mass.). Board of Assessors, cartographer.",2003,G1234.B9G46 B76 1930,old index,n/a,Brookline
+39999085949178,brookline 1944,not included,"Brookline (Mass.). Board of Assessors, cartographer.",1982,G1234.B9G46 B76 1944,old index,n/a,Brookline
+39999059011724,belmont 1931,not included,Belmont (Mass.). Engineering Dept.,1984,G1234.B43G46 B4 1931x ,old index,n/a,Belmont
+39999059011732,belmont 1954,not included,Belmont (Mass.). Engineering Dept.,1910,G1234.B43G46 B4 1954x ,old index,n/a,Belmont
+39999085950606,weymouth 1949,not included,,1910,G1234.W7G46 1949 .W49,old index,n/a,Weymouth
+39999059016087,wellesley 1935,not included,Gleason Engineering Corporation.,1871,G1234.W38 G54 1935x ,old index,n/a,Wellesley
+39999058993948,milford 1874,not included,Sanborn Map Company.,1894,G1234.M76 1874 .S3,old index,n/a,Milford
+39999059010460,,not included,,1912,G1233.M5 A8 1900 v.1,old index,n/a,
+39999065672659,,not included,Sanborn Map Company.,1873,G1234.W9G475 S36 1949 v.1,old index,n/a,
+39999059010478,,not included,,1875,G1233.M5 A8 1900 v.2,old index,n/a,
+39999059010452,,not included,,1889,G1233.M5 A8 1900 v.2,old index,n/a,
+39999065672642,,not included,Sanborn Map Company.,1888,G1234.W9G475 S36 1949 v.2,old index,n/a,
+39999065672634,,not included,Sanborn Map Company.,1876,G1234.W9G475 S36 1949 v.4,old index,n/a,
+39999059010205,barnstable co 1909,not included,Walker,1909,G1233.B3 W3 1910 ,old index,n/a,Barnstable County
+39999059010197,berkshire co 1904,not included,Barnes & Farnham,1904,G1233.B4 B2 1904 ,old index,n/a,Berkshire County
+39999059010213,cape ann 1899,not included,Stadly,1899,G1233.E7 A8 1899 ,old index,n/a,"Cape Ann,Gloucester,Rockport,Manchester"
+39999059010288,topsfield 1910,not included,Walker,1910,G1233.E7 W3 1910,old index,n/a,"Topsfield,Ipswich,Essex,Hamilton,Wenham"
+39999059010353,franklin co 1871,not included,Beers,1871,G1233.F7 B44 1871 ,old index,n/a,Franklin County
+39999059010403,hampden co 1897,not included,Richards,1894,G1233.H3 R53 1894 ,old index,n/a,Hampden County
+39999059010411,hampden co 1912,not included,Richards Map Company.,1912,G1233.H3 R53 1912 ,old index,n/a,Hampden County
+39999059010379,,not included,"Beers, F. W. (Frederick W.)",1888,G1233.H4 B44 1873,old index,n/a,
+39999059010387,,not included,"Beers, F. W. (Frederick W.)",1913,G1233.M5 B44 1875 ,old index,n/a,
+39999059010429,,not included,Geo. H. Walker & Co.,1919,G1233.M5 W35 1889 ,old index,n/a,
+39999059010593,,not included,"Robinson, E. (Elisha)",1893,G1233.N6 R6 1888 ,old index,n/a,
+39999059010577,,not included,"Sherman, W. A.",1874,G1233.N6 S5 1876 ,old index,n/a,
+39999059010635,,not included,Walker Lith. & Pub. Co.,1873,G1233.N6 W35 1909 ,old index,n/a,
+39999065666370,,not included,Geo. H. Walker & Co.,1903,G1233.P5 G46 1986 ,old index,n/a,
+39999059010643,,not included,L.J. Richards & Co.,1916,G1233.P5 R5 1903 ,old index,n/a,
+39999059011815,attleboro 1880,not included,Geo. H. Walker & Co.,1880,G1234.A9G46 W3 1880x,old index,n/a,Attleboro
+39999065704171,beverly 1897,not included,Geo. H. Walker & Co.,1897,G1234.B5 G46 1897,old index,n/a,Beverly
+39999059011765,beverly 1907,not included,Geo. H. Walker & Co.,1907,G1234.B5 W3 1907x ,old index,n/a,Beverly
+39999059011781,beverly 1880,not included,G.M. Hopkins & Co.,1880,G1234.B5G46 G5 1880x,old index,n/a,Beverly
+39999059011773,,not included,"Craig, George A., civil engineer.",1914,G1234.B85G46 C7 1885x ,old index,n/a,
+39999085949194,,not included,"Bromley, George Washington, cartographer.",1886,G1234.B9 B7 1900,old index,n/a,
+39999085948030,,not included,"Bromley, George Washington, cartographer.",1896,G1234.B9 B7 1893x,old index,n/a,
+39999085948022,,not included,,1883,G1234.B9 B7 1907x,old index,n/a,
+39999059011823,,not included,"Bromley, George Washington.",1886,G1234.B9G46 B7 1888x,old index,n/a,
+39999059012029,,not included,"Bromley, George Washington.",1884,G1234.B9G46 B7 1913x,old index,n/a,
+39999059012011,,not included,"Bromley, George Washington.",1892,G1234.B9G46 B7 1919x,old index,n/a,
+39999059011831,,not included,"Elliott, Charles L.",1884,G1234.B9G46 E5 1893x,old index,n/a,
+39999059011799,,not included,G.M. Hopkins & Co.,1911,G1234.B9G46 G5 1874x,old index,n/a,
+39999059015543,,not included,"Hopkins, Griffith Morgan, Jr.",1931,G1234.C2 .H6 1873,old index,n/a,
+39999065704080,,not included,"Bromley, George Washington, cartographer.",1895,G1234.C2 B7 1903,old index,n/a,
+39999059015642,,not included,"Bromley, George Washington.",1875,G1234.C2 B7 1916 ,old index,n/a,
+39999059015659,,not included,"Bromley, George Washington.",1926,G1234.C2 B7 1916,old index,n/a,
+39999059015667,,not included,G.W. Bromley & Co.,1906,G1234.C2 G8 1930 ,old index,n/a,
+39999059015550,,not included,"Hopkins, Griffith Morgan, Jr.",1905,G1234.C2 H6 1873,old index,n/a,
+39999059015568,,not included,"Hopkins, Griffith Morgan, Jr.",1924,G1234.C2 H6 1886,old index,n/a,
+39999059015675,,not included,"Bromley, George Washington.",1912,G1234.C4 B7 1914,old index,n/a,
+39999065670588,,not included,"Bromley, George Washington.",1897,G1234.C4 B7 1914,old index,n/a,
+39999059010767,,not included,"Bromley, George Washington.",1896,G1234.C4 B76 1886,old index,n/a,
+39999059010775,,not included,"Bromley, George Washington.",1905,G1234.C4 B76 1896,old index,n/a,
+39999059015451,fall river 1883,not included,Geo. H. Walker & Co.,1883,G1234.F3 .G4 1883 ,old index,n/a,Fall River
+39999059015469,,not included,"Walker, O. W. (Oscar W.)",1929,G1234.G2 .W3 1886 ,old index,n/a,
+39999059015477,greenfield 1884,not included,Walker,1884,G1234.G7 .G4 1884 ,old index,n/a,Greenfield
+39999059015485,haverhill 1892,not included,Walker,1892,G1234.H5 G4 1892 ,old index,n/a,"Bradford,Haverhill"
+39999059015493,,not included,Geo. H. Walker & Co.,1874,G1234.H7 G4 1884 ,old index,n/a,
+39999059015501,,not included,Richards Map Company.,1886,G1234.H7 R6 1911 ,old index,n/a,
+39999065704098,,not included,Sanborn Map Company.,1907,G1234.H7G475 S36 1955,old index,n/a,
+39999059015519,,not included,Geo. H. Walker & Co.,1897,G1234.H84 G4 1895 ,old index,n/a,
+39999059015527,lawrence 1875,not included,Hopkins,1875,G1234.L3 .H6 1875 ,old index,n/a,Lawrence
+39999059015535,lawrence 1926,not included,Richards Map Company.,1926,G1234.L3 .R6 1926 ,old index,n/a,"Lawrence,Methuen,Andover,North Andover"
+39999059015709,,not included,L.J. Richards & Co.,1911,G1234.L7 L5 1906 ,old index,n/a,
+39999065704122,lynn 1905,not included,Richards,1905,G1234.L9 L5 1905,old index,n/a,"Lynn,Swampscott,Saugus"
+39999059015691,lynn 1924,not included,Richards,1924,G1234.L9 R5 1924,old index,n/a,"Lynn,Swampscott,Saugus,Nahant"
+39999059015766,marblehead 1912,not included,Walker,1912,G1234.M3 W3 1912 ,old index,n/a,Marblehead
+30000007903066,,not included,Geo. W. Stadly & Co.,1884,G1234.M53 G46 1898x ,old index,n/a,
+39999059015725,,not included,Geo. H. Walker & Co.,1882,G1234.M84 G4 1896 ,old index,n/a,
+39999059015733,,not included,Geo. H. Walker & Co.,1910,G1234.M84 G4 1905 ,old index,n/a,
+39999059015758,new bedford 1911,not included,Walker,1911,G1234.N4 W3 1911 ,old index,n/a,New Bedford
+39999059015790,,not included,"Barnes, Rowland H.",1967,G1234.N5 B37 1929,old index,n/a,
+39999059015816,,not included,"Bromley, George Washington.",1884,G1234.N5 B76 1895,old index,n/a,
+39999059015824,,not included,"Bromley, George Washington.",1886,G1234.N5 B76 1917,old index,n/a,
+39999059015832,,not included,"Hopkins, Griffith Morgan, Jr.",2005,G1234.N5 H67 1874,old index,n/a,
+39999059015840,,not included,J.B. Beers & Co.,1875,G1234.N5 J33 1886,old index,n/a,
+39999059015857,,not included,"Branch, Ernest W.",1870,G1234.Q6 B73 1907 ,old index,n/a,
+39999059015865,,not included,Geo. W. Stadly & Co.,1911,G1234.Q6 G46 1897 ,old index,n/a,
+39999059015873,,not included,"Whitman & Howard, engineer.",1911,G1234.R4 W56 1906 ,old index,n/a,
+39999059015899,salem 1874,not included,Hopkins,1874,G1234.S2 G65 1874 ,old index,n/a,Salem
+39999059015907,salem 1911,not included,Walker,1911,G1234.S2 W35 1911 ,old index,n/a,Salem
+39999059015998,,not included,"Bromley, George Washington.",,G1234.S4 B76 1895 ,old index,n/a,
+39999059015915,,not included,G.M. Hopkins & Co.,,G1234.S4 G65 1874 ,old index,n/a,
+39999059015923,,not included,G.M. Hopkins & Co.,,G1234.S4 G65 1874,old index,n/a,
+39999059015980,,not included,"Craig, George A., civil engineer.",,G1234.S672 C73 1884 ,old index,n/a,
+39999059015931,,not included,Geo. H. Walker & Co.,,G1234.S7 G46 1882 ,old index,n/a,
+39999059015881,,not included,L.J. Richards & Co.,,G1234.S7 L57 1910 ,old index,n/a,
+39999065704221,swampscott 1897,not included,Stadly,1897,G1234.S9 G46 1897,old index,n/a,Swampscott
+39999059016095,,not included,Everett M. Brooks Company.,,G1234.W34 E84 1967x ,old index,n/a,
+39999059015956,,not included,Geo. H. Walker & Co.,,G1234.W6 G46 1884 ,old index,n/a,
+39999059015964,,not included,"Walker, O. W. (Oscar W.)",,G1234.W8 W35 1886 ,old index,n/a,
+39999085948691,,not included,,,G1234.W86 H57 2005,old index,n/a,
+39999059015972,,not included,"Hopkins, Griffith Morgan, Jr.",,G1234.W86 H66 1875 ,old index,n/a,
+39999059016061,,not included,"Beers, F. W. (Frederick W.)",,G1234.W9 B44 1870 ,old index,n/a,
+39999059016046,,not included,"Richards, Harold H.",,G1234.W9 R53 1911 ,old index,n/a,
+39999059016053,,not included,"Richards, Harold H.",,G1234.W9 R53 1911,old index,n/a,
+39999059016038,,not included,"Richards, Harold H.",,G1234.W9 R53 1922 ,old index,n/a,
+39999059010619,north shore 1919,not included,Yeager-Klinge Co.,1919,G1233.E7 Y43 1919,,,"Beverly,Gloucester,Manchester"
