@@ -3,7 +3,7 @@
 39999059011880,charlestown 1912,complete,Bromley,1912,G1234_B6_2C38_B7_1912,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1912-charlestownandeastboston.geojson,"Charlestown,East Boston"
 39999059012045,boston proper 1861,in progress,Pinney,1861,G1234_B6G475_P5_1861x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-pinney-1861-boston.geojson,Boston proper
 39999059011096,boston proper 1888 v.1,complete,Bromley,1888,G1234_B6_B7_1888_v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1888-bostonproperv1.geojson,Boston proper
-39999059011856,east boston 1901,pending,Bromley,1901,G1234_B6_2E2_B7_1901x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1901-eastboston.geojson,East Boston
+39999059011856,east boston 1901,complete,Bromley,1901,G1234_B6_2E2_B7_1901x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1901-eastboston.geojson,East Boston
 39999059015808,newton 1929,complete,Barnes,1929,G1234_N5_B37_1929,new index,n/a,Newton
 39999059010700,dorchester 1874,pending,Hopkins,1874,G1233_S8_H6_1874v3,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol3.geojson,"Dorchester,South Boston"
 39999059010999,roxbury 1889,complete,Bromley,1889,G1234_B6_B7_1888v4,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1889-roxburyv4.geojson,Roxbury
