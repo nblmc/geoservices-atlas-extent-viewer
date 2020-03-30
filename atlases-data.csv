@@ -18,10 +18,10 @@
 39999059011633,dorchester 1918,complete,Bromley,1918,G1234_B6_2D6_B7_1918x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1918-dorchester.geojson,Dorchester
 39999059011906,west roxbury 1924,pending,Bromley,1924,G1234_B6_2W4_B7_1924x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1924-westroxbury.geojson,West Roxbury
 39999059011922,hyde park 1912,complete,Bromley,1912,G1234_B6_2H9_B7_1912x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1912-hydepark.geojson,Hyde Park
-39999059010866,dorchester 1884,pending,Bromley,1884,G1234_B6_B7_1883v3,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-dorchester.geojson,Dorchester
+39999059010866,dorchester 1884,complete,Bromley,1884,G1234_B6_B7_1883v3,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-dorchester.geojson,Dorchester
 39999059012037,charlestown 1868,in progress,Sanborn,1868,G1234_B6_2C38G475_S2_1868x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1868-roxburycharlestowncambridge.geojson,"Charlestown,Roxbury,Cambridge"
 39999059011104,boston proper 1888 v.2,complete,Bromley,1888,G1234_B6_B7_1888_v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1888-bostonproperv2.geojson,Boston proper
-39999059010692,east boston 1874,pending,Hopkins,1874,G1233_S8_H6_1874v4,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol4.geojson,"East Boston,Chelsea,Revere,Winthrop"
+39999059010692,east boston 1874,complete,Hopkins,1874,G1233_S8_H6_1874v4,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol4.geojson,"East Boston,Chelsea,Revere,Winthrop"
 39999059010650,boston proper 1874,complete,Hopkins,1874,G1233_S8_H6_1874v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol1.geojson,Boston proper
 39999085952040,dorchester 1933,pending,Bromley ,1933,G1234_B6_2D6_B7_1933x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1933-dorchester.geojson,Dorchester
 39999085945721,boston proper 1885,complete,Sanborn,1885,G1234_B6G475_S36_1885v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1885-roxburyvol2.geojson,"Boston proper,Roxbury"
@@ -29,14 +29,14 @@
 39999059011666,charlestown 1922,complete,Bromley,1922,G1234_B6_2C38_B7_1922,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1922-charlestownandeastboston.geojson,"Charlestown,East Boston"
 39999059011971,brookline 1927,complete,Bromley,1927,G1234_B9G46_B7_1927x,new index,n/a,Brookline
 39999059011005,dorchester 1889,complete,Bromley,1889,G1234_B6_B7_1888v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1889-dorchester.geojson,Dorchester
-39999059011849,charlestown 1901,in progress,Bromley,1901,G1234_B6_2C38_B7_1901x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1901-charlestown.geojson,Charlestown
+39999059011849,charlestown 1901,complete,Bromley,1901,G1234_B6_2C38_B7_1901x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1901-charlestown.geojson,Charlestown
 39999059011401,dorchester 1904,pending,Bromley,1904,G1234_B6_B7_1904,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1904-dorchester.geojson,Dorchester
 39999059011872,roxbury 1915,complete,Bromley,1915,G1234_B6_2R7_B7_1915x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1915-roxbury.geojson,Roxbury
 39999059010825,boston 1882,complete,Hopkins,1882,G1234_B6_H6_1882,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1882-boston.geojson,"Boston proper,Brighton,Charlestown,Dorchester,East Boston,Roxbury,South Boston,West Roxbury"
-39999059011492,boston proper 1912,pending,Bromley,1912,G1234_B6_B7_1912,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1912-bostonproper.geojson,Boston proper
+39999059011492,boston proper 1912,complete,Bromley,1912,G1234_B6_B7_1912,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1912-bostonproper.geojson,Boston proper
 39999059011427,boston proper 1908,complete,Bromley,1908,G1234_B6_B7_1908x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1908-bostonproper.geojson,Boston proper
 39999059015428,boston proper 1870,complete,Sanborn,1870,G1234_B6G475_S2_1870x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1870-bostonvol2.geojson,"Boston proper,East Boston,South Boston"
-39999059011625,boston proper 1917,pending,Bromley,1917,G1234_B6_B7_1917x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1917-bostonproper.geojson,Boston proper
+39999059011625,boston proper 1917,complete,Bromley,1917,G1234_B6_B7_1917x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1917-bostonproper.geojson,Boston proper
 39999059011898,west roxbury 1905,pending,Bromley,1905,G1234_B6_B7_1905x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1905-westroxbury.geojson,West Roxbury
 39999059011526,boston proper 1922,pending,Bromley,1922,G1234_B6_B7_1922x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1922-bostonproper.geojson,Boston proper
 39999059011336,dorchester 1910,pending,Bromley,1910,G1234_B6_2D6_B7_1910,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1910-dorchester.geojson,Dorchester
@@ -45,7 +45,7 @@
 39999059012060,south boston 1868,pending,Sanborn,1868,G1234_B6G475_S2_1867v2,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1868-bostonvol2.geojson,"Boston proper,South Boston"
 39999059011278,west roxbury 1896,pending,Bromley,1896,G1234_B6_B7_1896,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1896-westroxbury.geojson,West Roxbury
 39999059012011,brookline 1919,complete,Bromley,1919,G1234_B9G46_B7_1919x,new index,n/a,Brookline
-39999059011377,brighton 1909,pending,Bromley,1909,G1234_B6_2B7_B7_1909x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1909-brighton.geojson,Brighton
+39999059011377,brighton 1909,complete,Bromley,1909,G1234_B6_2B7_B7_1909x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1909-brighton.geojson,Brighton
 39999059011393,south boston 1899,pending,Bromley,1899,G1234_B6_2S5_B7_1899,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1899-southboston.geojson,South Boston
 39999059012029,brookline 1913,complete,Bromley,1913,G1234_B9G46_B7_1913x,new index,n/a,Brookline
 39999059011419,roxbury 1899,complete,Bromley,1899,G1234_B6_B7_1899,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1899-roxbury.geojson,Roxbury
@@ -77,6 +77,7 @@
 39999059011153,boston proper 1898,complete,Bromley,1898,G1234_B6_B7_1898,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1898-bostonproper.geojson,Boston proper
 39999059015410,boston proper 1874,complete,F.W. Beers & Co.,1874,G1234_B6G475_B44_1874,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-beers-1874-boston.geojson,Boston proper
 39999059010932,charlestown 1885,complete,Bromley,1885,G1234_B6 B7_1883v6,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1885-charlestownandbrighton.geojson,"Brighton,Charlestown"
+39999059010767,chelsea 1886,complete,Bromley,1886,G1234_C4_B76_1886,new index,n/a,"Chelsea,Revere,Winthrop"
 39999065704080,cambridge 1903,complete,Bromley,1903,G1234_C2_B7_1903,new index,n/a,Cambridge
 39999085945739,boston proper 1882,complete,Sanborn,1882,G1234_B6G475_S36_1885_v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1882-bostonvol1.geojson,Boston proper
 39999085949194,brookline 1900,complete,Bromley,1900,Atlas81_4_B84_1900,new index,n/a,Brookline
