@@ -48,7 +48,7 @@
 39999059011278,west roxbury 1896,complete,Bromley,1896,G1234_B6_B7_1896,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1896-westroxbury.geojson,West Roxbury
 39999059012011,brookline 1919,complete,Bromley,1919,G1234_B9G46_B7_1919x,new index,n/a,Brookline
 39999059011377,brighton 1909,complete,Bromley,1909,G1234_B6_2B7_B7_1909x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1909-brighton.geojson,Brighton
-39999059011393,south boston 1899,pending,Bromley,1899,G1234_B6_2S5_B7_1899,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1899-southboston.geojson,South Boston
+39999059011393,south boston 1899,complete,Bromley,1899,G1234_B6_2S5_B7_1899,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1899-southboston.geojson,South Boston
 39999059012029,brookline 1913,complete,Bromley,1913,G1234_B9G46_B7_1913x,new index,n/a,Brookline
 39999059011419,roxbury 1899,complete,Bromley,1899,G1234_B6_B7_1899,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1899-roxbury.geojson,Roxbury
 39999059011914,roxbury 1931,complete,Bromley,1931,G1234_B6_2R7_B7_1931x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1931-roxbury.geojson,Roxbury
