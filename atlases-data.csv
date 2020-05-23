@@ -1,107 +1,110 @@
 ﻿barcode,desc_short,CLIR_status,publisher,year,call_number,json_status,old_json_src,geo_extent_discrete
 39999059010775,chelsea 1896,complete,Bromley,1896,G1234_C4_B76_1896,new index,n/a,"Chelsea,Revere,Winthrop,East Boston"
+39999059011013,west roxbury 1890,complete,Bromley,1890,G1234_B6_B7_1888v6,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1890-westroxbury.geojson,West Roxbury
 39999059011880,charlestown 1912,complete,Sanborn,1912,G1234_B6_2C38_B7_1912,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1912-charlestownandeastboston.geojson,"Charlestown,East Boston"
+39999059011088,boston proper 1890,complete,Bromley,1890,G1234_B6_B7_1890,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1890-bostonproperandroxbury.geojson,"Boston proper,Roxbury"
 39999059012045,boston proper 1861,complete,Pinney,1861,G1234_B6G475_P5_1861x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-pinney-1861-boston.geojson,Boston proper
 39999059011096,boston proper 1888 v.1,complete,Bromley,1888,G1234_B6_B7_1888_v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1888-bostonproperv1.geojson,Boston proper
 39999059011856,east boston 1901,complete,Bromley,1901,G1234_B6_2E2_B7_1901x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1901-eastboston.geojson,East Boston
+39999059011914,roxbury 1931,complete,Bromley,1931,G1234_B6_2R7_B7_1931x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1931-roxbury.geojson,Roxbury
+39999065704080,cambridge 1903,complete,Bromley,1903,G1234_C2_B7_1903,new index,n/a,Cambridge
 39999059015808,newton 1929,complete,Barnes,1929,G1234_N5_B37_1929,new index,n/a,Newton
+39999059010718,roxbury 1873,complete,Hopkins,1873,G1233_S8_H6_1874v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol2.geojson,"Boston proper,Roxbury"
 39999059010700a,dorchester 1874,complete,Hopkins,1874,G1233_S8_H6_1874v3,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol3.geojson,"Dorchester,South Boston"
-39999059010700b,dorchester 1874,complete,Hopkins,1874,G1233_S8_H6_1874v3,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol3.geojson,"Dorchester,South Boston"
+39999059010908,boston proper 1883,complete,Bromley,1883,G1234_B6_B7_1883_v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1883-bostonproper.geojson,Boston proper
+39999059011708,brighton 1916,complete,Bromley,1916,G1234_B6_2B7_B7_1916x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1916-brighton.geojson,Brighton
+39999059010684,west roxbury 1874,complete,Hopkins,1874,G1233_S8_H6_1874v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol5.geojson,West Roxbury
 39999059010999,roxbury 1889,complete,Bromley,1889,G1234_B6_B7_1888v4,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1889-roxburyv4.geojson,Roxbury
 39999059015824,newton 1917,complete,Bromley,1917,G1234_N5_B76_1917,new index,n/a,Newton
 39999059011260,boston proper 1895,complete,Bromley,1895,G1234_B6_B7_1895,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1895-bostonproper.geojson,"Boston proper,Roxbury"
-39999059015436,charlestown 1871,pending,Sanborn,1871,G1234_B6_2C38G475_S2_1871,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1871-roxburycharlestowncambridge.geojson,"Charlestown,Roxbury,Cambridge"
+39999059015667,cambridge 1930,complete,Bromley,1930,G1234_C2_G8_1930,new index,n/a,Cambridge
+39999085945713,south boston 1885,complete,Sanborn,1885,G1234_B6G475_S36_1885_v3,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1884-southandeastbostonvol3.geojson,"East Boston,South Boston"
+39999065670588,chelsea 1914,complete,Bromley,1914,G1234_C4_B7_1914,new index,n/a,"Chelsea,Revere,Winthrop,Suffolk County"
+39999059015923,somerville 1874,complete,Hopkins,1874,G1234_S4_G65_1874,new index,n/a,Somerville
+39999059011823,brookline 1888,complete,Bromley,1888,G1234_B9G46_B7_1888x,new index,n/a,Brookline
+39999059015436,charlestown 1871,complete,Sanborn,1871,G1234_B6_2C38G475_S2_1871,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1871-roxburycharlestowncambridge.geojson,"Charlestown,Roxbury,Cambridge"
 39999059015832a,newton 1874,complete,Hopkins,1874,G1234_N5_H67_1874,new index,n/a,Newton
+39999059011153,boston proper 1898,complete,Bromley,1898,G1234_B6_B7_1898,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1898-bostonproper.geojson,Boston proper
 39999059011286,brighton 1897,complete,Bromley,1897,G1234_B6_B7_1897,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1897-brighton.geojson,Brighton
+39999059011831,brookline 1893,complete,Richards & Elliott,1893,G1234_B9G46_E5_1893x,new index,n/a,Brookline
+39999059010668,brighton 1875,complete,Hopkins,1875,G1233_S8_H6_1874v7,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol7.geojson,Brighton
 39999059011674,brighton 1925,complete,Bromley ,1925,G1234_B6_2B7_B7_1925x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1925-brighton.geojson,Brighton
+39999059011682,boston proper 1928,complete,Bromley ,1928,G1234_B6_B7_1928x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1928-bostonproper.geojson,Boston proper
 39999059011211,dorchester 1899,complete,Richards,1899,G1234_B6_R6_1899,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-richards-1899-dorchesterwestroxburybrighton.geojson,"Brighton,Dorchester,West Roxbury"
+39999085945739,boston proper 1882,complete,Sanborn,1882,G1234_B6G475_S36_1885_v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1882-bostonvol1.geojson,Boston proper
+39999059015410,boston proper 1874,complete,F.W. Beers & Co.,1874,G1234_B6G475_B44_1874,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-beers-1874-boston.geojson,Boston proper
 39999059011864,boston proper 1902,complete,Bromley,1902,G1234_B6_B7_1902,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1902-bostonproper.geojson,Boston proper
+39999085949194,brookline 1900,complete,Bromley,1900,Atlas81_4_B84_1900,new index,n/a,Brookline
+39999059011229,dorchester 1898,complete,Bromley,1898,G1234_B6_B7_1898_2v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1898-dorchester.geojson,Dorchester
 39999059011633,dorchester 1918,complete,Bromley,1918,G1234_B6_2D6_B7_1918x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1918-dorchester.geojson,Dorchester
 39999059011906,west roxbury 1924,complete,Bromley,1924,G1234_B6_2W4_B7_1924x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1924-westroxbury.geojson,West Roxbury
 39999059011922,hyde park 1912,complete,Bromley,1912,G1234_B6_2H9_B7_1912x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1912-hydepark.geojson,Hyde Park
 39999059015873,revere 1906,complete,Whitman & Howard,1906,G1234_R4_W56_1906,new index,n/a,"Revere,Winthrop"
 39999059010866,dorchester 1884,complete,Bromley,1884,G1234_B6_B7_1883v3,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-dorchester.geojson,Dorchester
-39999059012037,charlestown 1868,in progress,Sanborn,1868,G1234_B6_2C38G475_S2_1868x,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1868-roxburycharlestowncambridge.geojson,"Charlestown,Roxbury,Cambridge"
+39999059015840a,newton 1886,complete,Beers,1886,G1234_N5_J33_1886,new index,n/a,Newton
+39999059011385,south boston 1910,complete,Bromley,1910,G1234_B6_2S5_B7_1910,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1910-southboston.geojson,South Boston
+39999059011690,boston proper 1938,complete,Bromley,1938,G1234_B6_B7_1938,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1928-bostonproper.geojson,Boston proper
+39999059012037,charlestown 1868,complete,Sanborn,1868,G1234_B6_2C38G475_S2_1868x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1868-roxburycharlestowncambridge.geojson,"Charlestown,Roxbury,Cambridge"
 39999059015816,newton 1895,complete,Bromley,1895,G1234_N5_B76_1895,new index,n/a,Newton
 39999059011104,boston proper 1888 v.2,complete,Bromley,1888,G1234_B6_B7_1888_v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1888-bostonproperv2.geojson,Boston proper
 39999059010692,east boston 1874,complete,Hopkins,1874,G1233_S8_H6_1874v4,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol4.geojson,"East Boston,Chelsea,Revere,Winthrop"
+39999059010924,south boston 1884,complete,Bromley,1884,G1234_B6_B7_1883v4,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-southandeastboston.geojson,"East Boston,South Boston"
+39999059010932,charlestown 1885,complete,Bromley,1885,G1234_B6 B7_1883v6,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1885-charlestownandbrighton.geojson,"Brighton,Charlestown"
 39999059010650,boston proper 1874,complete,Hopkins,1874,G1233_S8_H6_1874v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol1.geojson,Boston proper
 39999085952040,dorchester 1933,complete,Bromley ,1933,G1234_B6_2D6_B7_1933x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1933-dorchester.geojson,Dorchester
+39999059011799,brookline 1874,complete,Hopkins,1874,G1234_B9G46_G5_1874x,new index,n/a,Brookline
 39999085945721,boston proper 1885,complete,Sanborn,1885,G1234_B6G475_S36_1885v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1885-roxburyvol2.geojson,"Boston proper,Roxbury"
 39999085945705,charlestown 1885,complete,Sanborn,1885,G1234_B6G475_S36_1885_v4,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1884-charlestownandcambridge.geojson,"Charlestown,Cambridge,Somerville"
 39999059011666,charlestown 1922,complete,Bromley,1922,G1234_B6_2C38_B7_1922,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1922-charlestownandeastboston.geojson,"Charlestown,East Boston"
 39999059011971,brookline 1927,complete,Bromley,1927,G1234_B9G46_B7_1927x,new index,n/a,Brookline
+39999059011468,west roxbury 1914,complete,Bromley,1914,G1234_B6_2W4_B7_1914,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1914-westroxbury.geojson,West Roxbury
 39999059011005,dorchester 1889,complete,Bromley,1889,G1234_B6_B7_1888v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1889-dorchester.geojson,Dorchester
 39999059011849,charlestown 1901,complete,Bromley,1901,G1234_B6_2C38_B7_1901x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1901-charlestown.geojson,Charlestown
 39999059011401,dorchester 1904,complete,Bromley,1904,G1234_B6_B7_1904,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1904-dorchester.geojson,Dorchester
 39999059011872,roxbury 1915,complete,Bromley,1915,G1234_B6_2R7_B7_1915x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1915-roxbury.geojson,Roxbury
 39999059010825,boston 1882,complete,Hopkins,1882,G1234_B6_H6_1882,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1882-boston.geojson,"Boston proper,Brighton,Charlestown,Dorchester,East Boston,Roxbury,South Boston,West Roxbury"
+39999059010882,west roxbury 1884,complete,Bromley,1884,G1234_B6_B7_1883v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-westroxbury.geojson,West Roxbury
+39999059015659,cambridge 1916,complete,Bromley,1916,G1234_C2_B7_1916,new index,n/a,Cambridge
 39999059011492,boston proper 1912,complete,Bromley,1912,G1234_B6_B7_1912,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1912-bostonproper.geojson,Boston proper
 39999059011427,boston proper 1908,complete,Bromley,1908,G1234_B6_B7_1908x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1908-bostonproper.geojson,Boston proper
 39999059015428,boston proper 1870,complete,Sanborn,1870,G1234_B6G475_S2_1870x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1870-bostonvol2.geojson,"Boston proper,East Boston,South Boston"
+39999059015576,cambridge 1894,complete,Bromley,1894,G1234_C2_B7_1894,new index,n/a,Cambridge
 39999059011625,boston proper 1917,complete,Bromley,1917,G1234_B6_B7_1917x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1917-bostonproper.geojson,Boston proper
+39999059011252,dorchester 1894,complete,Bromley,1894,G1234_B6_B7_1894,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1894-dorchester.geojson,Dorchester
 39999059011898,west roxbury 1905,complete,Bromley,1905,G1234_B6_B7_1905x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1905-westroxbury.geojson,West Roxbury
 39999059011526,boston proper 1922,complete,Bromley,1922,G1234_B6_B7_1922x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1922-bostonproper.geojson,Boston proper
+39999059010676,charlestown 1875,complete,Hopkins,1875,G1233_S8_H6_1874v6,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol6.geojson,Charlestown
 39999059011336,dorchester 1910,complete,Bromley,1910,G1234_B6_2D6_B7_1910,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1910-dorchester.geojson,Dorchester
 39999059010981,roxbury 1888,complete,Bromley,1888,G1234_B6_B7_1888_v3,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1888-roxburyv3.geojson,Roxbury
+39999085948022,brookline 1907,complete,Bromley,1907,G1234.B9 B7 1907x,new index,n/a,Brookline
+39999085948030,brookline 1893,complete,Bromley,1893,G1234_B9_B7_1893x,new index,n/a,Brookline
 39999059011369,roxbury 1906,complete,Bromley,1906,G1234_B6_2R7_B7_1906,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1906-roxbury.geojson,Roxbury
-39999059012060,south boston 1868,pending,Sanborn,1868,G1234_B6G475_S2_1867v2,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1868-bostonvol2.geojson,"Boston proper,South Boston"
+39999059010767,chelsea 1886,complete,Bromley,1886,G1234_C4_B76_1886,new index,n/a,"Chelsea,Revere,Winthrop"
+39999059012060,south boston 1868,complete,Sanborn,1868,G1234_B6G475_S2_1867v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1868-bostonvol2.geojson,"Boston proper,South Boston"
+39999059011021,brighton 1890,complete,Bromley,1890,G1234_B6_B7_1888v7,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1890-brighton.geojson,Brighton
+39999059010916,roxbury 1884,complete,Bromley,1884,G1234_B6_B7_1883_v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-roxbury.geojson,Roxbury
 39999059011278,west roxbury 1896,complete,Bromley,1896,G1234_B6_B7_1896,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1896-westroxbury.geojson,West Roxbury
 39999059012011,brookline 1919,complete,Bromley,1919,G1234_B9G46_B7_1919x,new index,n/a,Brookline
+39999059015568,cambridge 1886,complete,Hopkins,1886,G1234_C2_H6_1886,new index,n/a,Cambridge
 39999059011377,brighton 1909,complete,Bromley,1909,G1234_B6_2B7_B7_1909x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1909-brighton.geojson,Brighton
+39999059011039,south boston 1891,complete,Bromley,1891,G1234_B6_B7_1888v8,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1891-southboston.geojson,South Boston
+39999059015550,cambridge 1873,complete,Hopkins,1873,G1234_C2_H6_1873,new index,n/a,Cambridge
+39999059012052,boston proper 1867,complete,Sanborn,1867,G1234_B6G475_S2_1867v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1867-bostonvol1.geojson,"Boston proper,East Boston"
 39999059011393,south boston 1899,complete,Bromley,1899,G1234_B6_2S5_B7_1899,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1899-southboston.geojson,South Boston
+39999059011658,south boston 1919,complete,Bromley,1919,G1234_B6_2S5_B7_1919x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1919-southboston.geojson,South Boston
+39999059015998,somerville 1895,complete,Bromley,1895,G1234_S4_B76_1895,new index,n/a,Somerville
+39999059011112,east boston 1892,complete,Bromley,1892,G1234_B6_B7_1888v9,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1892-eastboston.geojson,East Boston
 39999059012029,brookline 1913,complete,Bromley,1913,G1234_B9G46_B7_1913x,new index,n/a,Brookline
 39999059011419,roxbury 1899,complete,Bromley,1899,G1234_B6_B7_1899,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1899-roxbury.geojson,Roxbury
-39999059011914,roxbury 1931,complete,Bromley,1931,G1234_B6_2R7_B7_1931x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1931-roxbury.geojson,Roxbury
-39999059010908,boston proper 1883,complete,Bromley,1883,G1234_B6_B7_1883_v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1883-bostonproper.geojson,Boston proper
-39999059015667,cambridge 1930,complete,Bromley,1930,G1234_C2_G8_1930,new index,n/a,Cambridge
-39999059010668,brighton 1875,complete,Hopkins,1875,G1233_S8_H6_1874v7,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol7.geojson,Brighton
-39999059011385,south boston 1910,complete,Bromley,1910,G1234_B6_2S5_B7_1910,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1910-southboston.geojson,South Boston
-39999059010882,west roxbury 1884,complete,Bromley,1884,G1234_B6_B7_1883v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-westroxbury.geojson,West Roxbury
-39999059015568,cambridge 1886,complete,Hopkins,1886,G1234_C2_H6_1886,new index,n/a,Cambridge
-39999059015550,cambridge 1873,complete,Hopkins,1873,G1234_C2_H6_1873,new index,n/a,Cambridge
-39999059015998,somerville 1895,complete,Bromley,1895,G1234_S4_B76_1895,new index,n/a,Somerville
-39999059011013,west roxbury 1890,complete,Bromley,1890,G1234_B6_B7_1888v6,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1890-westroxbury.geojson,West Roxbury
-39999059011088,boston proper 1890,complete,Bromley,1890,G1234_B6_B7_1890,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1890-bostonproperandroxbury.geojson,"Boston proper,Roxbury"
-39999059011708,brighton 1916,complete,Bromley,1916,G1234_B6_2B7_B7_1916x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1916-brighton.geojson,Brighton
-39999059010684,west roxbury 1874,complete,Hopkins,1874,G1233_S8_H6_1874v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol5.geojson,West Roxbury
-39999059011831,brookline 1893,complete,Richards & Elliott,1893,G1234_B9G46_E5_1893x,new index,n/a,Brookline
-39999059011682,boston proper 1928,complete,Bromley ,1928,G1234_B6_B7_1928x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1928-bostonproper.geojson,Boston proper
-39999059011229,dorchester 1898,complete,Bromley,1898,G1234_B6_B7_1898_2v5,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1898-dorchester.geojson,Dorchester
-39999059011690,boston proper 1938,complete,Bromley,1938,G1234_B6_B7_1938,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1928-bostonproper.geojson,Boston proper
-39999059011021,brighton 1890,complete,Bromley,1890,G1234_B6_B7_1888v7,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1890-brighton.geojson,Brighton
-39999059012052,boston proper 1867,complete,Sanborn,1867,G1234_B6G475_S2_1867v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1867-bostonvol1.geojson,"Boston proper,East Boston"
-39999059015576,cambridge 1894,complete,Bromley,1894,G1234_C2_B7_1894,new index,n/a,Cambridge
-39999059011468,west roxbury 1914,complete,Bromley,1914,G1234_B6_2W4_B7_1914,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1914-westroxbury.geojson,West Roxbury
-39999059010916,roxbury 1884,complete,Bromley,1884,G1234_B6_B7_1883_v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-roxbury.geojson,Roxbury
-39999059011039,south boston 1891,complete,Bromley,1891,G1234_B6_B7_1888v8,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1891-southboston.geojson,South Boston
-39999059015923,somerville 1874,complete,Hopkins,1874,G1234_S4_G65_1874,new index,n/a,Somerville
-39999059011823,brookline 1888,complete,Bromley,1888,G1234_B9G46_B7_1888x,new index,n/a,Brookline
-39999059011153,boston proper 1898,complete,Bromley,1898,G1234_B6_B7_1898,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1898-bostonproper.geojson,Boston proper
-39999059015410,boston proper 1874,complete,F.W. Beers & Co.,1874,G1234_B6G475_B44_1874,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-beers-1874-boston.geojson,Boston proper
-39999059010932,charlestown 1885,complete,Bromley,1885,G1234_B6 B7_1883v6,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1885-charlestownandbrighton.geojson,"Brighton,Charlestown"
-39999059010767,chelsea 1886,complete,Bromley,1886,G1234_C4_B76_1886,new index,n/a,"Chelsea,Revere,Winthrop"
-39999065704080,cambridge 1903,complete,Bromley,1903,G1234_C2_B7_1903,new index,n/a,Cambridge
-39999085945739,boston proper 1882,complete,Sanborn,1882,G1234_B6G475_S36_1885_v1,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1882-bostonvol1.geojson,Boston proper
-39999085949194,brookline 1900,complete,Bromley,1900,Atlas81_4_B84_1900,new index,n/a,Brookline
-39999059010924,south boston 1884,complete,Bromley,1884,G1234_B6_B7_1883v4,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1884-southandeastboston.geojson,"East Boston,South Boston"
-39999059015659,cambridge 1916,complete,Bromley,1916,G1234_C2_B7_1916,new index,n/a,Cambridge
-39999085948030,brookline 1893,complete,Bromley,1893,G1234_B9_B7_1893x,new index,n/a,Brookline
-39999059011658,south boston 1919,complete,Bromley,1919,G1234_B6_2S5_B7_1919x,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1919-southboston.geojson,South Boston
-39999059010718,roxbury 1873,complete,Hopkins,1873,G1233_S8_H6_1874v2,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol2.geojson,"Boston proper,Roxbury"
-39999085945713,south boston 1885,complete,Sanborn,1885,G1234_B6G475_S36_1885_v3,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1884-southandeastbostonvol3.geojson,"East Boston,South Boston"
-39999059011799,brookline 1874,complete,Hopkins,1874,G1234_B9G46_G5_1874x,new index,n/a,Brookline
-39999059011252,dorchester 1894,complete,Bromley,1894,G1234_B6_B7_1894,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1894-dorchester.geojson,Dorchester
-39999059010676,charlestown 1875,complete,Hopkins,1875,G1233_S8_H6_1874v6,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol6.geojson,Charlestown
-39999085948022,brookline 1907,complete,Bromley,1907,G1234.B9 B7 1907x,new index,n/a,Brookline
-39999059011112,east boston 1892,complete,Bromley,1892,G1234_B6_B7_1888v9,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1892-eastboston.geojson,East Boston
 39999059015832b,newton 1874,complete,Hopkins,1874,G1234_N5_H67_1874,new index,n/a,Newton
+39999059011120,charlestown 1892,complete,Bromley,1892,G1234_B6_B7_1888v10,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1892-charlestown.geojson,Charlestown
+39999059010700b,dorchester 1874,complete,Hopkins,1874,G1233_S8_H6_1874v3,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-hopkins-1874-vol3.geojson,"Dorchester,South Boston"
+39999059015840b,newton 1886,complete,Beers,1886,G1234_N5_J33_1886,new index,n/a,Newton
 39999065670869,boston proper 1963,not included,Sanborn ,1963,G1234.B6G475 S36 1963 v. 1 North,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1963-bostonvol1n.geojson,Boston proper
 39999065670851,boston proper 1963,not included,Sanborn,1963,G1234.B6G475 S36 1963 v. 1 South,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1963-bostonvol1s.geojson,Boston proper
 39999065670828,boston proper 1963,not included,Sanborn,1963,G1234.B6G475 S36 1963 v. 2 North,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1963-bostonvol2n.geojson,Boston proper
 39999065670810,boston proper 1963,not included,Sanborn,1963,G1234.B6G475 S36 1963 v. 2 South,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1963-bostonvol2s.geojson,Boston proper
 39999065670745,brighton 1961,not included,Sanborn,1961,G1234.B6G475 S36 1963 v. 6,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1961-bostonvol6.geojson,Brighton
-39999059011120,charlestown 1892,complete,Bromley,1892,G1234_B6_B7_1888v10,new index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-bromley-1892-charlestown.geojson,Charlestown
 39999065670760,charlestown 1963,not included,Sanborn,1963,G1234.B6G475 S36 1963 v. 5,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1963-bostonvol5.geojson,"Charlestown,East Boston"
 39999065670869,boston proper 1962,not included,Sanborn,1962,G1234.B6G475 S36 1963 v. 1 North,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1962-bostonvol8.geojson,Boston proper
 39999065670778,south boston 1963,not included,Sanborn ,1963,G1234.B6G475 S36 1963 v. 4,old index,https://raw.githubusercontent.com/nblmc/boston-atlas-footprints/master/index/index-sanborn-1963-bostonvol4.geojson,"Dorchester,South Boston"
@@ -120,88 +123,88 @@
 39999085951133,west roxbury 1986,not included,Sanborn,1986,G1234.B6G475 S36 1986 v.10,old index,n/a,West Roxbury
 39999085951224,west roxbury 1988,not included,Sanborn,1988,G1234.B6G475 S36 1988 v.10,old index,n/a,West Roxbury
 39999059010239,berkshire co 1876,not included,Beers,1876,G1233.B4 B44 1876,old index,n/a,Berkshire County
-39999059010262,essex co 1872,not included,Beers,1872,G1233.E7 D5 1872,old index,n/a,Essex County
-39999059010486,middlesex co 1908,not included,Walker,1908,G1233.M5 A8 1900 v.3,old index,n/a,Middlesex County
-39999059010395,middlesex co 1875,not included,Beers,1875,G1233.M5 B44 1875,old index,n/a,Middlesex County
-39999059010445,watertown 1898,not included,Stadly,1898,G1233.M5 S7 1898,old index,n/a,"Watertown,Belmont,Arlington,Lexington"
-39999059010585,norfolk co 1876,not included,Sherman,1876,G1233.N6 S5 1876,old index,n/a,Norfolk County
-39999059010759,worcester co 1898,not included,Richards,1898,G1233.W6 R53 1898x ,old index,n/a,Worcester County
-39999065701219,gloucester 1903,not included,Sanborn,1903,G1234.G4G475 S36 1903,old index,n/a,Gloucester
-39999065701201,gloucester 1917,not included,Sanborn,1917,G1234.G4G475 S36 1917,old index,n/a,Gloucester
-39999065696948,gilbertville 1911,not included,Sanborn,1911,G1234.G36 S26 1911,old index,n/a,Gilbertville
-39999065704239,hull 1895,not included,Walker,1895,G1234.H84 G4 1895,old index,n/a,Hull
-39999059015683,lowell 1936,not included,Franklin,1936,G1234.L7 F7 1936 ,old index,n/a,Lowell
-39999059015774,malden 1885,not included,Walker,1885,G1234.M2 G4 1885,old index,n/a,Malden
-39999059015717,melrose 1934,not included,,1934,G1234.M59 C5 1934 ,old index,n/a,Melrose
-39999059015741,new bedford 1881,not included,Walker,1881,G1234.N4 G4 1881 ,old index,n/a,New Bedford
-39999085934121,northampton 1884,not included,Walker,1884,G1234.N8 G46 1884,old index,n/a,Northampton
-39999059007797,northampton 1895,not included,Miller,1895,G1234.N8 M5 1895 ,old index,n/a,"Northampton,Easthampton"
-39999059015949,taunton 1881,not included,Walker,1881,G1234.T2 G46 1881 ,old index,n/a,Taunton
-39999065701227,ware 1912,not included,Sanborn,1912,G1234.W25G475 S36 1912,old index,n/a,Ware
-39999065696930,warren 1911,not included,Sanborn,1911,G1234.W28 S26 1911,old index,n/a,Warren
-39999059010247,bristol co 1871,not included,Beers,1871,G1233.B7 B44 1871 ,old index,n/a,Bristol County
-39999059003598,essex co 1884,not included,Walker,1884,G1233.E7 W35 1884 ,old index,n/a,Essex County
-39999059010361,hampden co 1870,not included,Beers,1870,G1233.H3 B44 1870 ,old index,n/a,Hampden County
-39999059010601,norfolk co 1888,not included,Robinson,1888,G1233.N6 R6 1888,old index,n/a,Norfolk County
-39999059016103,medford 1898,not included,Stadly,1898,G1234.M5 G46 1898x,old index,n/a,Medford
-39999065704791,waltham 1911,not included,Waltham (Mass.). City Engineer.,1911,G1234.W2G46 W35 1911,old index,n/a,Waltham
-39999059010437,middlesex co 1889,not included,Walker,1889,G1233.M5 W35 1889 ,old index,n/a,Middlesex County
 39999059011724,belmont 1931,not included,Belmont (Mass.). Engineering Dept.,1931,G1234.B43G46 B4 1931x ,old index,n/a,Belmont
-39999059011732,belmont 1954,not included,Belmont (Mass.). Engineering Dept.,1954,G1234.B43G46 B4 1954x ,old index,n/a,Belmont
-39999085950606,weymouth 1949,not included,,1949,G1234.W7G46 1949 .W49,old index,n/a,Weymouth
-39999059016087,wellesley 1935,not included,Gleason,1935,G1234.W38 G54 1935x ,old index,n/a,Wellesley
-39999058993948,milford 1874,not included,Sanborn,1874,G1234.M76 1874 .S3,old index,n/a,Milford
-39999059010460,middlesex co 1900,not included,Stadly,1900,G1233.M5 A8 1900 v.1,old index,n/a,Middlesex County
-39999065672659,worcester 1949 v1,not included,Sanborn,1949,G1234.W9G475 S36 1949 v.1,old index,n/a,Worcester
-39999059010478,middlesex co 1906,not included,Walker,1906,G1233.M5 A8 1900 v.2,old index,n/a,Middlesex County
-39999065672642,worcester 1949 v2,not included,Sanborn,1949,G1234.W9G475 S36 1949 v.2,old index,n/a,Worcester
-39999065672634,worcester 1949 v4,not included,Sanborn,1949,G1234.W9G475 S36 1949 v.4,old index,n/a,Worcester
-39999059010205,barnstable co 1909,not included,Walker,1909,G1233.B3 W3 1910 ,old index,n/a,Barnstable County
-39999059010197,berkshire co 1904,not included,Barnes & Farnham,1904,G1233.B4 B2 1904 ,old index,n/a,Berkshire County
-39999059010213,cape ann 1899,not included,Stadly,1899,G1233.E7 A8 1899 ,old index,n/a,"Cape Ann,Gloucester,Rockport,Manchester"
-39999059010288,topsfield 1910,not included,Walker,1910,G1233.E7 W3 1910,old index,n/a,"Topsfield,Ipswich,Essex,Hamilton,Wenham"
-39999059010353,franklin co 1871,not included,Beers,1871,G1233.F7 B44 1871 ,old index,n/a,Franklin County
-39999059010403,hampden co 1897,not included,Richards,1897,G1233.H3 R53 1894 ,old index,n/a,Hampden County
-39999059010411,hampden co 1912,not included,Richards,1912,G1233.H3 R53 1912 ,old index,n/a,Hampden County
-39999059010379,hampshire co 1873,not included,Beers,1873,G1233.H4 B44 1873,old index,n/a,Hampshire County
-39999059010635,needham 1909,not included,Walker,1909,G1233.N6 W35 1909 ,old index,n/a,"Needham,Dover,Westwood,Millis,Medfield"
-39999059010643,plymouth co 1903,not included,Richards,1903,G1233.P5 R5 1903 ,old index,n/a,"Cohasset,Plymouth County"
-39999059011815,attleboro 1880,not included,Walker,1880,G1234.A9G46 W3 1880x,old index,n/a,Attleboro
-39999065704171,beverly 1897,not included,Walker,1897,G1234.B5 G46 1897,old index,n/a,Beverly
-39999059011765,beverly 1907,not included,Walker,1907,G1234.B5 W3 1907x ,old index,n/a,Beverly
-39999059011781,beverly 1880,not included,Hopkins,1880,G1234.B5G46 G5 1880x,old index,n/a,Beverly
-39999059011773,brookfield 1885,not included,Walker,1885,G1234.B85G46 C7 1885x ,old index,n/a,"Brookfield,West Brookfield,North Brookfield"
-39999059015451,fall river 1883,not included,Walker,1883,G1234.F3 .G4 1883 ,old index,n/a,Fall River
-39999059015469,gardner 1886,not included,Oscar Walker,1886,G1234.G2 .W3 1886 ,old index,n/a,Gardner
-39999059015477,greenfield 1884,not included,Walker,1884,G1234.G7 .G4 1884 ,old index,n/a,Greenfield
-39999059015485,haverhill 1892,not included,Walker,1892,G1234.H5 G4 1892 ,old index,n/a,"Bradford,Haverhill"
-39999059015493,holyoke 1884,not included,Walker,1884,G1234.H7 G4 1884 ,old index,n/a,Holyoke
-39999059015501,holyoke 1911,not included,Richards,1911,G1234.H7 R6 1911 ,old index,n/a,Holyoke
-39999065704098,holyoke 1955,not included,Sanborn,1955,G1234.H7G475 S36 1955,old index,n/a,Holyoke
-39999059015527,lawrence 1875,not included,Hopkins,1875,G1234.L3 .H6 1875 ,old index,n/a,Lawrence
-39999059015535,lawrence 1926,not included,Richards,1926,G1234.L3 .R6 1926 ,old index,n/a,"Lawrence,Methuen,Andover,North Andover"
-39999059015709,lowell 1906,not included,Richards,1906,G1234.L7 L5 1906 ,old index,n/a,Lowell
-39999065704122,lynn 1905,not included,Richards,1905,G1234.L9 L5 1905,old index,n/a,"Lynn,Swampscott,Saugus"
-39999059015691,lynn 1924,not included,Richards,1924,G1234.L9 R5 1924,old index,n/a,"Lynn,Swampscott,Saugus,Nahant"
-39999059015766,marblehead 1912,not included,Walker,1912,G1234.M3 W3 1912 ,old index,n/a,Marblehead
-30000007903066,wellesley 1898,not included,Stadly,1898,G1234.M53 G46 1898x ,old index,n/a,Wellesley
-39999059015725,milton 1896,not included,Walker,1896,G1234.M84 G4 1896 ,old index,n/a,Milton
-39999059015733,milton 1905,not included,Walker,1905,G1234.M84 G4 1905 ,old index,n/a,Milton
-39999059015758,new bedford 1911,not included,Walker,1911,G1234.N4 W3 1911 ,old index,n/a,New Bedford
-39999059015857,quincy 1907,not included,Branch,1907,G1234.Q6 B73 1907 ,old index,n/a,Quincy
-39999059015865,quincy 1897,not included,Stadly,1897,G1234.Q6 G46 1897 ,old index,n/a,Quincy
-39999059015899,salem 1874,not included,Hopkins,1874,G1234.S2 G65 1874 ,old index,n/a,Salem
-39999059015907,salem 1911,not included,Walker,1911,G1234.S2 W35 1911 ,old index,n/a,Salem
-39999059015980,spencer 1884,not included,Walker,1884,G1234.S672 C73 1884 ,old index,n/a,Spencer
 39999059015931,springfield 1882,not included,Walker,1882,G1234.S7 G46 1882 ,old index,n/a,Springfield
-39999059015881,springfield 1910,not included,Richards,1910,G1234.S7 L57 1910 ,old index,n/a,"Springfield,Longmeadow"
-39999065704221,swampscott 1897,not included,Stadly,1897,G1234.S9 G46 1897,old index,n/a,Swampscott
-39999059016095,wayland 1967,not included,Brooks,1967,G1234.W34 E84 1967x ,old index,n/a,Wayland
+39999065672634,worcester 1949 v4,not included,Sanborn,1949,G1234.W9G475 S36 1949 v.4,old index,n/a,Worcester
 39999059015956,westfield 1884,not included,Walker,1884,G1234.W6 G46 1884 ,old index,n/a,Westfield
-39999059015964,winchendon 1886,not included,Oscar Walker,1886,G1234.W8 W35 1886 ,old index,n/a,Winchendon
-39999059015972,woburn 1875,not included,Hopkins,1875,G1234.W86 H66 1875 ,old index,n/a,Woburn
-39999059016061,worcester 1870,not included,Beers,1870,G1234.W9 B44 1870 ,old index,n/a,Worcester
-39999059016053,worcester 1911,not included,Richards,1911,G1234.W9 R53 1911,old index,n/a,Worcester
+39999065704791,waltham 1911,not included,Waltham (Mass.). City Engineer.,1911,G1234.W2G46 W35 1911,old index,n/a,Waltham
+39999059011781,beverly 1880,not included,Hopkins,1880,G1234.B5G46 G5 1880x,old index,n/a,Beverly
+39999059011732,belmont 1954,not included,Belmont (Mass.). Engineering Dept.,1954,G1234.B43G46 B4 1954x ,old index,n/a,Belmont
+39999059010379,hampshire co 1873,not included,Beers,1873,G1233.H4 B44 1873,old index,n/a,Hampshire County
+39999065701227,ware 1912,not included,Sanborn,1912,G1234.W25G475 S36 1912,old index,n/a,Ware
+39999059010395,middlesex co 1875,not included,Beers,1875,G1233.M5 B44 1875,old index,n/a,Middlesex County
+39999059015493,holyoke 1884,not included,Walker,1884,G1234.H7 G4 1884 ,old index,n/a,Holyoke
+39999059015980,spencer 1884,not included,Walker,1884,G1234.S672 C73 1884 ,old index,n/a,Spencer
+39999059003598,essex co 1884,not included,Walker,1884,G1233.E7 W35 1884 ,old index,n/a,Essex County
+39999059010411,hampden co 1912,not included,Richards,1912,G1233.H3 R53 1912 ,old index,n/a,Hampden County
+39999059016087,wellesley 1935,not included,Gleason,1935,G1234.W38 G54 1935x ,old index,n/a,Wellesley
+39999059015774,malden 1885,not included,Walker,1885,G1234.M2 G4 1885,old index,n/a,Malden
+39999059015758,new bedford 1911,not included,Walker,1911,G1234.N4 W3 1911 ,old index,n/a,New Bedford
+39999059010635,needham 1909,not included,Walker,1909,G1233.N6 W35 1909 ,old index,n/a,"Needham,Dover,Westwood,Millis,Medfield"
+39999058993948,milford 1874,not included,Sanborn,1874,G1234.M76 1874 .S3,old index,n/a,Milford
+39999059015691,lynn 1924,not included,Richards,1924,G1234.L9 R5 1924,old index,n/a,"Lynn,Swampscott,Saugus,Nahant"
+39999059010643,plymouth co 1903,not included,Richards,1903,G1233.P5 R5 1903 ,old index,n/a,"Cohasset,Plymouth County"
+39999065704122,lynn 1905,not included,Richards,1905,G1234.L9 L5 1905,old index,n/a,"Lynn,Swampscott,Saugus"
+39999065701219,gloucester 1903,not included,Sanborn,1903,G1234.G4G475 S36 1903,old index,n/a,Gloucester
+39999059010478,middlesex co 1906,not included,Walker,1906,G1233.M5 A8 1900 v.2,old index,n/a,Middlesex County
+39999059015865,quincy 1897,not included,Stadly,1897,G1234.Q6 G46 1897 ,old index,n/a,Quincy
+39999059015741,new bedford 1881,not included,Walker,1881,G1234.N4 G4 1881 ,old index,n/a,New Bedford
+39999059010361,hampden co 1870,not included,Beers,1870,G1233.H3 B44 1870 ,old index,n/a,Hampden County
 39999059016038,worcester 1922,not included,Richards,1922,G1234.W9 R53 1922 ,old index,n/a,Worcester
+39999059015972,woburn 1875,not included,Hopkins,1875,G1234.W86 H66 1875 ,old index,n/a,Woburn
+39999059015881,springfield 1910,not included,Richards,1910,G1234.S7 L57 1910 ,old index,n/a,"Springfield,Longmeadow"
+39999059010486,middlesex co 1908,not included,Walker,1908,G1233.M5 A8 1900 v.3,old index,n/a,Middlesex County
+39999059015683,lowell 1936,not included,Franklin,1936,G1234.L7 F7 1936 ,old index,n/a,Lowell
+30000007903066,wellesley 1898,not included,Stadly,1898,G1234.M53 G46 1898x ,old index,n/a,Wellesley
+39999059015907,salem 1911,not included,Walker,1911,G1234.S2 W35 1911 ,old index,n/a,Salem
+39999059015469,gardner 1886,not included,Oscar Walker,1886,G1234.G2 .W3 1886 ,old index,n/a,Gardner
+39999059010585,norfolk co 1876,not included,Sherman,1876,G1233.N6 S5 1876,old index,n/a,Norfolk County
+39999059010460,middlesex co 1900,not included,Stadly,1900,G1233.M5 A8 1900 v.1,old index,n/a,Middlesex County
+39999059015857,quincy 1907,not included,Branch,1907,G1234.Q6 B73 1907 ,old index,n/a,Quincy
+39999059016053,worcester 1911,not included,Richards,1911,G1234.W9 R53 1911,old index,n/a,Worcester
+39999059011765,beverly 1907,not included,Walker,1907,G1234.B5 W3 1907x ,old index,n/a,Beverly
+39999065696930,warren 1911,not included,Sanborn,1911,G1234.W28 S26 1911,old index,n/a,Warren
+39999059015899,salem 1874,not included,Hopkins,1874,G1234.S2 G65 1874 ,old index,n/a,Salem
+39999059015717,melrose 1934,not included,,1934,G1234.M59 C5 1934 ,old index,n/a,Melrose
+39999059015725,milton 1896,not included,Walker,1896,G1234.M84 G4 1896 ,old index,n/a,Milton
+39999059010288,topsfield 1910,not included,Walker,1910,G1233.E7 W3 1910,old index,n/a,"Topsfield,Ipswich,Essex,Hamilton,Wenham"
+39999059010403,hampden co 1897,not included,Richards,1897,G1233.H3 R53 1894 ,old index,n/a,Hampden County
+39999059015964,winchendon 1886,not included,Oscar Walker,1886,G1234.W8 W35 1886 ,old index,n/a,Winchendon
+39999059015451,fall river 1883,not included,Walker,1883,G1234.F3 .G4 1883 ,old index,n/a,Fall River
+39999059015709,lowell 1906,not included,Richards,1906,G1234.L7 L5 1906 ,old index,n/a,Lowell
+39999059010437,middlesex co 1889,not included,Walker,1889,G1233.M5 W35 1889 ,old index,n/a,Middlesex County
+39999059010262,essex co 1872,not included,Beers,1872,G1233.E7 D5 1872,old index,n/a,Essex County
+39999059011773,brookfield 1885,not included,Walker,1885,G1234.B85G46 C7 1885x ,old index,n/a,"Brookfield,West Brookfield,North Brookfield"
+39999065696948,gilbertville 1911,not included,Sanborn,1911,G1234.G36 S26 1911,old index,n/a,Gilbertville
+39999065672642,worcester 1949 v2,not included,Sanborn,1949,G1234.W9G475 S36 1949 v.2,old index,n/a,Worcester
+39999059010353,franklin co 1871,not included,Beers,1871,G1233.F7 B44 1871 ,old index,n/a,Franklin County
+39999085950606,weymouth 1949,not included,,1949,G1234.W7G46 1949 .W49,old index,n/a,Weymouth
+39999059010445,watertown 1898,not included,Stadly,1898,G1233.M5 S7 1898,old index,n/a,"Watertown,Belmont,Arlington,Lexington"
+39999059015733,milton 1905,not included,Walker,1905,G1234.M84 G4 1905 ,old index,n/a,Milton
+39999065704171,beverly 1897,not included,Walker,1897,G1234.B5 G46 1897,old index,n/a,Beverly
+39999059015949,taunton 1881,not included,Walker,1881,G1234.T2 G46 1881 ,old index,n/a,Taunton
+39999059015485,haverhill 1892,not included,Walker,1892,G1234.H5 G4 1892 ,old index,n/a,"Bradford,Haverhill"
+39999059011815,attleboro 1880,not included,Walker,1880,G1234.A9G46 W3 1880x,old index,n/a,Attleboro
+39999065704098,holyoke 1955,not included,Sanborn,1955,G1234.H7G475 S36 1955,old index,n/a,Holyoke
+39999059010601,norfolk co 1888,not included,Robinson,1888,G1233.N6 R6 1888,old index,n/a,Norfolk County
+39999059015477,greenfield 1884,not included,Walker,1884,G1234.G7 .G4 1884 ,old index,n/a,Greenfield
+39999065701201,gloucester 1917,not included,Sanborn,1917,G1234.G4G475 S36 1917,old index,n/a,Gloucester
+39999065672659,worcester 1949 v1,not included,Sanborn,1949,G1234.W9G475 S36 1949 v.1,old index,n/a,Worcester
+39999059010759,worcester co 1898,not included,Richards,1898,G1233.W6 R53 1898x ,old index,n/a,Worcester County
+39999065704221,swampscott 1897,not included,Stadly,1897,G1234.S9 G46 1897,old index,n/a,Swampscott
+39999059015535,lawrence 1926,not included,Richards,1926,G1234.L3 .R6 1926 ,old index,n/a,"Lawrence,Methuen,Andover,North Andover"
+39999059010247,bristol co 1871,not included,Beers,1871,G1233.B7 B44 1871 ,old index,n/a,Bristol County
+39999059010197,berkshire co 1904,not included,Barnes & Farnham,1904,G1233.B4 B2 1904 ,old index,n/a,Berkshire County
+39999059016095,wayland 1967,not included,Brooks,1967,G1234.W34 E84 1967x ,old index,n/a,Wayland
+39999059015766,marblehead 1912,not included,Walker,1912,G1234.M3 W3 1912 ,old index,n/a,Marblehead
+39999059007797,northampton 1895,not included,Miller,1895,G1234.N8 M5 1895 ,old index,n/a,"Northampton,Easthampton"
+39999059010205,barnstable co 1909,not included,Walker,1909,G1233.B3 W3 1910 ,old index,n/a,Barnstable County
+39999059016103,medford 1898,not included,Stadly,1898,G1234.M5 G46 1898x,old index,n/a,Medford
+39999059015501,holyoke 1911,not included,Richards,1911,G1234.H7 R6 1911 ,old index,n/a,Holyoke
+39999059010213,cape ann 1899,not included,Stadly,1899,G1233.E7 A8 1899 ,old index,n/a,"Cape Ann,Gloucester,Rockport,Manchester"
+39999085934121,northampton 1884,not included,Walker,1884,G1234.N8 G46 1884,old index,n/a,Northampton
+39999065704239,hull 1895,not included,Walker,1895,G1234.H84 G4 1895,old index,n/a,Hull
+39999059016061,worcester 1870,not included,Beers,1870,G1234.W9 B44 1870 ,old index,n/a,Worcester
+39999059015527,lawrence 1875,not included,Hopkins,1875,G1234.L3 .H6 1875 ,old index,n/a,Lawrence
 39999059010619,north shore 1919,not included,Yeager-Klinge,1919,G1233.E7 Y43 1919,,,"Beverly,Gloucester,Manchester"
 39999059001725,springfield 1920,not included,Richards,1920,G1234.S7 R53 1920,,,"Springfield,Longmeadow"
